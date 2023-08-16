@@ -11,6 +11,11 @@ ${BROWSER} =                         chrome
 ${URL} =                             https://automationplayground.com/front-office/
 
 
+
+${BROWSER} =                         chrome
+${URL} =                             https://automationplayground.com/front-office/
+
+
 *** Test Cases ***
 Should Be Able To Access "Team" Page
     [Tags]      Access
