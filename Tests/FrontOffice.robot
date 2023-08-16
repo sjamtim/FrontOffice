@@ -3,8 +3,8 @@ Documentation                        This is some information about the website 
 Resource                             ../Resources/Common.robot
 Resource                             ../Resources/FrontOfficeApp.robot
 
-Test Setup                                                                       Common.Begin Web Test    ${BROWSER}
-Test Teardown                                                                    Common.End Web Test
+Test Setup                                                                                   Common.Begin Web Test    ${BROWSER}
+Test Teardown                                                                                Common.End Web Test
 
 *** Variables ***
 ${BROWSER} =                         chrome
