@@ -10,8 +10,6 @@ Test Teardown                        Common.End Web Test
 ${BROWSER} =                         chrome
 ${URL} =                             https://automationplayground.com/front-office/
 
-
-
 *** Test Cases ***
 Should Be Able To Access "Team" Page
     [Tags]      Access
