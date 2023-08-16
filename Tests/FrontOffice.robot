@@ -7,8 +7,8 @@ Test Setup                           Common.Begin Web Test    ${BROWSER}
 Test Teardown                        Common.End Web Test
 
 *** Variables ***
-${BROWSER} =                 chrome
-${URL} =                     https://automationplayground.com/front-office/
+${BROWSER} =                         chrome
+${URL} =                             https://automationplayground.com/front-office/
 
 
 *** Test Cases ***
