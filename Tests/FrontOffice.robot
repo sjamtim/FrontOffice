@@ -10,6 +10,9 @@ Test Teardown                        Common.End Web Test
 ${BROWSER} =                         chrome
 ${URL} =                             https://automationplayground.com/front-office/
 
+${HEJ} =                             svaj
+${HAJ} =                             http://automationplayground.com/front-office/
+
 
 *** Test Cases ***
 Should Be Able To Access "Team" Page
