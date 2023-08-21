@@ -2,13 +2,11 @@
 Documentation                        This is some information about the website i will test. 
 Resource                             ../Resources/Common.robot
 Resource                             ../Resources/FrontOfficeApp.robot
+Resource                             ../Resources/config.robot
 
 Test Setup                           Common.Begin Web Test    ${BROWSER}
 Test Teardown                        Common.End Web Test
 
-*** Variables ***
-${BROWSER} =                         chrome
-${URL} =                             https://automationplayground.com/front-office/
 
 *** Test Cases ***
 Should Be Able To Access "Team" Page
